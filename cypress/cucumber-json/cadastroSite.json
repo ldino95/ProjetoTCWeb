@@ -23,7 +23,7 @@
             "name": "que estou na pagina de registro",
             "result": {
               "status": "passed",
-              "duration": 2463000000
+              "duration": 6391000000
             }
           },
           {
@@ -33,7 +33,7 @@
             "name": "preencho campos corretamente",
             "result": {
               "status": "passed",
-              "duration": 5925000000
+              "duration": 9044000000
             }
           }
         ]
@@ -53,7 +53,7 @@
             "name": "que estou na pagina de registro",
             "result": {
               "status": "passed",
-              "duration": 2048000000
+              "duration": 4543000000
             }
           },
           {
@@ -63,7 +63,7 @@
             "name": "preencho campos corretamente",
             "result": {
               "status": "passed",
-              "duration": 5881000000
+              "duration": 6096000000
             }
           },
           {
@@ -73,7 +73,7 @@
             "name": "clico no botao de finalizar cadastro",
             "result": {
               "status": "passed",
-              "duration": 292000000
+              "duration": 351000000
             }
           },
           {
@@ -83,7 +83,7 @@
             "name": "mensagem de sucesso e exibida",
             "result": {
               "status": "failed",
-              "duration": 10071000000,
+              "duration": 10103000000,
               "error_message": "AssertionError: Timed out retrying after 10000ms: Expected to find element: `#msgtxt`, but never found it.\n    at Context.eval (http://demo.automationtesting.in/__cypress/tests?p=cypress\\integration\\features\\cadastroSite.feature:120:48)"
             }
           }
@@ -104,7 +104,7 @@
             "name": "que estou na pagina de registro",
             "result": {
               "status": "passed",
-              "duration": 2376000000
+              "duration": 2836000000
             }
           },
           {
@@ -114,7 +114,7 @@
             "name": "preencho campos corretamente",
             "result": {
               "status": "passed",
-              "duration": 7256000000
+              "duration": 7070000000
             }
           },
           {
@@ -124,7 +124,7 @@
             "name": "clico no botao de recomeçar cadastro",
             "result": {
               "status": "passed",
-              "duration": 2675000000
+              "duration": 4970000000
             }
           },
           {
@@ -134,7 +134,7 @@
             "name": "valido que os campos é apagado",
             "result": {
               "status": "passed",
-              "duration": 126000000
+              "duration": 146000000
             }
           }
         ]
@@ -154,7 +154,7 @@
             "name": "que estou na pagina de registro",
             "result": {
               "status": "passed",
-              "duration": 2227000000
+              "duration": 2237000000
             }
           },
           {
@@ -164,7 +164,7 @@
             "name": "preencho campos nome, sobrenome e endereco",
             "result": {
               "status": "passed",
-              "duration": 1439000000
+              "duration": 1633000000
             }
           },
           {
@@ -174,7 +174,7 @@
             "name": "clico campo email",
             "result": {
               "status": "passed",
-              "duration": 504000000
+              "duration": 430000000
             }
           },
           {
@@ -184,7 +184,7 @@
             "name": "valido mensagem de dica",
             "result": {
               "status": "passed",
-              "duration": 94000000
+              "duration": 108000000
             }
           }
         ]
