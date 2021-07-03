@@ -1,0 +1,42 @@
+{
+  "name": "cypress-projetos",
+  "version": "1.0.0",
+  "description": "cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": " npx cypress run --headless",
+    "test:chrome": "cypress run --browser chrome --no-exit"
+  },
+  "author": "Lucas Sousa",
+  "license": "ISC",
+  "devDependencies": {
+    "@shelex/cypress-allure-plugin": "^2.8.3",
+    "cypress": "^7.6.0",
+    "cypress-cucumber-preprocessor": "^2.4.0",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-iframe": "^1.0.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": false,
+    "step_definitions": "cypress/support/contextTestFiles",
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/cucumber-json",
+      "filePrefix": "",
+      "fileSuffix": ".json"
+    }
+  },
+  "dependencies": {
+    "allure": "0.0.0",
+    "cypress-xpath": "^1.6.2",
+    "faker": "^5.5.3",
+    "mocha-allure-reporter": "^1.4.0"
+  },
+
+
+  "env": {
+    "allureResultsPath": "allure-results",
+    "tmsPrefix": "https://url-to-bug-tracking-system/task-",
+    "issuePrefix": "https://url-to-tms/tests/caseId-"
+  }
+}

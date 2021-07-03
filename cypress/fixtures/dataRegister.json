@@ -1,0 +1,47 @@
+{
+    "data" : [
+        {
+            "firstName": "William",
+            "lastName": "Souza",
+            "addressCampo": "William Souza o brasileiro",
+            "emailAdress": "william.souza@gmail.com",
+            "phoneNumber": "1234567890",
+            "passowordFirst": "123456@Abc",
+            "passowordSecond":"123456@Abc",
+            "skillsCampo" : "APIs",
+            "countryCampo": "Brazil",
+            "birthYear" : "1995",
+            "birthMonth" : "June",
+            "birthDay" : "5"
+        },
+        {
+            "firstName": "Lucas",
+            "lastName": "Felipe",
+            "addressCampo": "Lucas Felipe irmao do William",
+            "emailAdress": "lucas.felipe@gmail.com",
+            "phoneNumber": "9874563210",
+            "passowordFirst": "123456@Abc",
+            "passowordSecond":"123456@Abc",
+            "skillsCampo" : "Unix",
+            "countryCampo": "Brazil",
+            "birthYear" : "2000",
+            "birthMonth" : "December",
+            "birthDay" : "10"
+        },
+        {
+            "firstName": "Gabriel",
+            "lastName": "Fernandes",
+            "addressCampo": "Gabriel Fernandes melhor QA do Brasil",
+            "emailAdress": "gabriel.fernandes@gmail.com",
+            "phoneNumber": "3216549870",
+            "passowordFirst": "123456@Abc",
+            "passowordSecond":"123456@Abc",
+            "skillsCampo" : "C++",
+            "countryCampo": "Brazil",
+            "birthYear" : "1982",
+            "birthMonth" : "May",
+            "birthDay" : "11"
+        }
+                        
+    ]
+}

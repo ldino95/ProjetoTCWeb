@@ -1,0 +1,194 @@
+[
+  {
+    "description": "     Feature Description\n     Como futuro do usuario final\n     Quero realizar meu cadastro\n     de modo que possa usufruir após meus acessos",
+    "keyword": "Feature",
+    "name": "Realizar cadastro no site",
+    "line": 1,
+    "id": "realizar-cadastro-no-site",
+    "tags": [],
+    "uri": "cadastroSite.feature",
+    "elements": [
+      {
+        "id": "realizar-cadastro-no-site;validar-que-todos-os-campos-é-preenchido-corretamente",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Validar que todos os campos é preenchido corretamente",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 13,
+            "name": "que estou na pagina de registro",
+            "result": {
+              "status": "passed",
+              "duration": 2463000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "preencho campos corretamente",
+            "result": {
+              "status": "passed",
+              "duration": 5925000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "realizar-cadastro-no-site;realizar-registro-de-usuario",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Realizar registro de usuario",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 18,
+            "name": "que estou na pagina de registro",
+            "result": {
+              "status": "passed",
+              "duration": 2048000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "preencho campos corretamente",
+            "result": {
+              "status": "passed",
+              "duration": 5881000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "clico no botao de finalizar cadastro",
+            "result": {
+              "status": "passed",
+              "duration": 292000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "mensagem de sucesso e exibida",
+            "result": {
+              "status": "failed",
+              "duration": 10071000000,
+              "error_message": "AssertionError: Timed out retrying after 10000ms: Expected to find element: `#msgtxt`, but never found it.\n    at Context.eval (http://demo.automationtesting.in/__cypress/tests?p=cypress\\integration\\features\\cadastroSite.feature:120:48)"
+            }
+          }
+        ]
+      },
+      {
+        "id": "realizar-cadastro-no-site;realizar-cadastro-e-clicar-no-botão-de-recomeçar",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "Realizar cadastro e clicar no botão de recomeçar",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 25,
+            "name": "que estou na pagina de registro",
+            "result": {
+              "status": "passed",
+              "duration": 2376000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 26,
+            "name": "preencho campos corretamente",
+            "result": {
+              "status": "passed",
+              "duration": 7256000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 27,
+            "name": "clico no botao de recomeçar cadastro",
+            "result": {
+              "status": "passed",
+              "duration": 2675000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "valido que os campos é apagado",
+            "result": {
+              "status": "passed",
+              "duration": 126000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "realizar-cadastro-no-site;validar-que-texto-de-dica-aparece-no-campo-e-mail",
+        "keyword": "Scenario",
+        "line": 32,
+        "name": "Validar que texto de dica aparece no campo e-mail",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 33,
+            "name": "que estou na pagina de registro",
+            "result": {
+              "status": "passed",
+              "duration": 2227000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 34,
+            "name": "preencho campos nome, sobrenome e endereco",
+            "result": {
+              "status": "passed",
+              "duration": 1439000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 35,
+            "name": "clico campo email",
+            "result": {
+              "status": "passed",
+              "duration": 504000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 36,
+            "name": "valido mensagem de dica",
+            "result": {
+              "status": "passed",
+              "duration": 94000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
