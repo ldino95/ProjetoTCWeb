@@ -11,6 +11,7 @@
 
 Para iniciar os testes, execute um dos seguintes comandos no terminal do VS Code:
 - npm cypress i
+- yarn install
 
 Para iniciar os testes, execute um dos seguintes comandos no terminal do VS Code:
 - npx cypress open
